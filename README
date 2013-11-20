@@ -1,0 +1,22 @@
+####################################################################
+
+There are a few dependencies for both of these programs to run successfully.
+For colorz.py, the PIL module is needed. It can be installed with the 
+following commands:
+		Ubuntu/Debian: sudo apt-get install python-imaging
+		Arch Linux: sudo pacman -S python-imaging
+		Fedora: sudo yum install python-imaging
+For the colxres.py program, the following are required dependencides; urxvt and 
+urxvt-perls. They can installed with the 
+following commands:
+		Ubuntu/Debian: sudo apt-get install rxvt-unicode
+		Arch Linux: sudo pacman -S rxvt-unicode urxvt-perls
+		Fedora: sudo yum install rxvt-unicode
+
+####################################################################
+
+*For these programs to run correctly, you must change $USER to your 
+	respective GNU/Linux user name. You may change the path to
+	your wallpaper or the path for your .colors or .Xresources.
+	By default they are set to your home folder as that is where
+	they most commonly are.

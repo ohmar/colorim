@@ -1,0 +1,64 @@
+
+URxvt.perl-ext-common: default,keyboard-select,url-select,clipboard
+URxvt.modifier: super
+
+! Original Colors
+! urxvt*color8:    #4DA869
+! urxvt*color9:    #EF2929
+! urxvt*color10:    #BDA2BF
+! urxvt*color11:    #FFF391
+! urxvt*color12:    #7587A6
+! urxvt*color13:    #F0C47B
+! urxvt*color14:    #FF4040
+! urxvt*color15:    #EEEEEC
+! urxvt*color0:    #2E3436
+! !urxvt*color0:    #000000
+! urxvt*color1:    #DD1144
+! urxvt*color2:    #9B859D
+! urxvt*color3:    #F9EE98
+! urxvt*color4:    #424D5E
+! urxvt*color5:    #CDA869
+! urxvt*color6:    #E94444
+! urxvt*color7:    #C2C2C2
+
+! Keyboard options. These can depend on you.
+! Keyboard select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+
+! URL select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.autocopy: true
+URvxt.url-select.button: 1
+URvxt.url-select.launcher: mimeo
+URxvt.url-select.underline: true
+
+! Clipboard
+URxvt.keysym.M-c:   perl:clipboard:copy
+URxvt.keysym.M-v:   perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+
+URxvt.foreground: #ffffff
+URxvt.scrollBar: false
+URxvt.depth: 32
+URxvt.background: [85]#0E0E0E
+
+! Colorz
+
+urxvt*color0: #0f2013
+urxvt*color1: #6da071
+urxvt*color2: #d6e0cf
+urxvt*color3: #a0843b
+urxvt*color4: #ad6928
+urxvt*color5: #1fa067
+urxvt*color6: #dc9c44
+urxvt*color7: #11a05f
+urxvt*color8: #804e20
+urxvt*color9: #84c8ac
+urxvt*color10: #0fc87b
+urxvt*color11: #77c881
+urxvt*color12: #4bc876
+urxvt*color13: #20c88f
+urxvt*color14: #64c8c8
+urxvt*color15: #c8c06b

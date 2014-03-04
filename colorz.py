@@ -14,10 +14,7 @@
 from collections import namedtuple
 from math import sqrt
 import random
-try:
-	import Image
-except ImportError:
-	from PIL import Image
+from PIL import Image
 
 # Create a namedtuple "Point" with the following values.
 Point = namedtuple('Point', ('coords', 'n', 'ct'))

@@ -46,19 +46,19 @@ URxvt.background: [85]#0E0E0E
 
 ! Colorz
 
-urxvt*color0: #0f2013
-urxvt*color1: #6da071
-urxvt*color2: #d6e0cf
-urxvt*color3: #a0843b
-urxvt*color4: #ad6928
-urxvt*color5: #1fa067
-urxvt*color6: #dc9c44
-urxvt*color7: #11a05f
-urxvt*color8: #804e20
-urxvt*color9: #84c8ac
-urxvt*color10: #0fc87b
-urxvt*color11: #77c881
-urxvt*color12: #4bc876
-urxvt*color13: #20c88f
-urxvt*color14: #64c8c8
-urxvt*color15: #c8c06b
+urxvt*color0: #1e201e
+urxvt*color1: #4580aa
+urxvt*color2: #88a6b4
+urxvt*color3: #1d6fa0
+urxvt*color4: #186ca0
+urxvt*color5: #5684a0
+urxvt*color6: #a07743
+urxvt*color7: #a0794a
+urxvt*color8: #155280
+urxvt*color9: #a9c6c8
+urxvt*color10: #c2c8c8
+urxvt*color11: #3a91c8
+urxvt*color12: #1780c8
+urxvt*color13: #67a7c8
+urxvt*color14: #84abc8
+urxvt*color15: #6da2c8

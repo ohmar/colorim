@@ -1,22 +1,27 @@
-####################################################################
+README
+======
+
+This package of scripts will get the most dominant colors in an image and create
+a beautiful colorscheme. In this case, the colorscheme is exported into an
+.Xresources file. This file is used in many programs to define terminal colours,
+configure terminal preferences, set DPI, antialiasing, hinting, other X font settings,
+and many other configurations.
+
+The html file will also show you which colors were chosen and also a thumbnail
+of your given image. Your image should lie in the same directory as these two
+scripts. No configuration necessary.
 
 There are a few dependencies for both of these programs to run successfully.
+
 For colorz.py, the PIL module is needed. It can be installed with the 
 following commands:
 		Ubuntu/Debian: sudo apt-get install python-imaging
 		Arch Linux: sudo pacman -S python-imaging
 		Fedora: sudo yum install python-imaging
+
 For the colxres.py program, the following are required dependencides; urxvt and 
 urxvt-perls. They can installed with the 
 following commands:
 		Ubuntu/Debian: sudo apt-get install rxvt-unicode
 		Arch Linux: sudo pacman -S rxvt-unicode urxvt-perls
 		Fedora: sudo yum install rxvt-unicode
-
-####################################################################
-
-*For these programs to run correctly, you must change $USER to your 
-	respective GNU/Linux user name. You may change the path to
-	your wallpaper or the path for your .colors or .Xresources.
-	By default they are set to your home folder as that is where
-	they most commonly are.

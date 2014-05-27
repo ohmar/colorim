@@ -12,13 +12,14 @@
 # Import required modules, sys (for file paths)
 import sys
 import colorsys
+import os
 
 # Import colorz module to get dominant colors.
 from colorz import colorz
-
-wallpaper = '/home/omar/colorim/.wallpaper'
-colors = '/home/omar/colorim/.colors'
-xresources = '/home/omar/colorim/.Xresources'
+DIR = os.getcwd()
+wallpaper = DIR+'/.wallpaper'
+colors = DIR+'/.colors'
+xresources = DIR+'/.Xresources'
 
 cols = ''
 xres = """
